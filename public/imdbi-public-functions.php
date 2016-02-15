@@ -186,11 +186,11 @@ function imdbi_shortcode_generator($atts){
   extract(
   shortcode_atts(
   array(
-    'action' => ''
+    'meta_name' => ''
   )
   ,$atts)
 );
-  return imdbi_fetch_meta($action);
+  return imdbi_fetch_meta($meta_name);
 }
 
 add_shortcode('imdbi','imdbi_shortcode_generator');
