@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: imdbi\n"
+"POT-Creation-Date: 2016-02-15 16:38+0330\n"
+"PO-Revision-Date: 2016-02-15 16:38+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: imdbi.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-imdbi-admin.php:114
+msgid "imdbi settings"
+msgstr "تنظیمات imdbi"
+
+#: admin/class-imdbi-admin.php:125
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/class-imdbi-admin.php:154
+msgid "poster size must be a number."
+msgstr "مقدار عرض پوستر باید به صورت عددی وارد شود."
+
+#: admin/class-imdbi-admin.php:195
+msgid "Search movies and TV series"
+msgstr "کاوشگر فیلم و سریال"
+
+#: admin/class-imdbi-admin.php:344
+msgid "Action"
+msgstr "اکشن"
+
+#: admin/class-imdbi-admin.php:345
+msgid "Animation"
+msgstr "انیمیشن"
+
+#: admin/class-imdbi-admin.php:346
+msgid "Comedy"
+msgstr "کمدی"
+
+#: admin/class-imdbi-admin.php:347
+msgid "Documentary"
+msgstr "مستند"
+
+#: admin/class-imdbi-admin.php:348
+msgid "Family"
+msgstr "خانوادگی"
+
+#: admin/class-imdbi-admin.php:349
+msgid "Film-Noir"
+msgstr "نوار فیلم"
+
+#: admin/class-imdbi-admin.php:350
+msgid "Horror"
+msgstr "ترسناک"
+
+#: admin/class-imdbi-admin.php:351
+msgid "Musical"
+msgstr "موزیکال"
+
+#: admin/class-imdbi-admin.php:352
+msgid "Romance"
+msgstr "رمانتیک"
+
+#: admin/class-imdbi-admin.php:353
+msgid "Sport"
+msgstr "ورزشی"
+
+#: admin/class-imdbi-admin.php:354
+msgid "War"
+msgstr "جنگی"
+
+#: admin/class-imdbi-admin.php:355
+msgid "Adventure"
+msgstr "ماجراجویی"
+
+#: admin/class-imdbi-admin.php:356
+msgid "Biography"
+msgstr "بیوگرافی"
+
+#: admin/class-imdbi-admin.php:357
+msgid "Crime"
+msgstr "جنایی"
+
+#: admin/class-imdbi-admin.php:358
+msgid "Drama"
+msgstr "درام"
+
+#: admin/class-imdbi-admin.php:359
+msgid "Fantasy"
+msgstr "فانتزی"
+
+#: admin/class-imdbi-admin.php:360
+msgid "History"
+msgstr "تاریخی"
+
+#: admin/class-imdbi-admin.php:361
+msgid "Music"
+msgstr "موسیقی"
+
+#: admin/class-imdbi-admin.php:362
+msgid "Mystery"
+msgstr "رازآلود"
+
+#: admin/class-imdbi-admin.php:363
+msgid "Sci-Fi"
+msgstr "علمی تخیلی"
+
+#: admin/class-imdbi-admin.php:364
+msgid "Thriller"
+msgstr "هیجان انگیز"
+
+#: admin/class-imdbi-admin.php:365
+msgid "Western"
+msgstr "وسترن"
+
+#: admin/class-imdbi-admin.php:366
+msgid "News"
+msgstr "خبری"
+
+#: admin/class-imdbi-admin.php:367
+msgid "Sitcom"
+msgstr "کمدی موقعیت"
+
+#: admin/class-imdbi-admin.php:368
+msgid "Reality-TV"
+msgstr "واقعی"
+
+#: admin/class-imdbi-admin.php:369
+msgid "Game-Show"
+msgstr "نقد  بازی"
+
+#: admin/class-imdbi-admin.php:370
+msgid "Talk-Show"
+msgstr "برنامه گفتمانی (تاک شو)"
+
+#: admin/class-imdbi-admin.php:371
+msgid "short"
+msgstr "فیلم کوتاه"
+
+#: admin/class-imdbi-admin.php:382
+msgid "Argentina"
+msgstr "آرژانتین"
+
+#: admin/class-imdbi-admin.php:383
+msgid "Brazil"
+msgstr "برزیل"
+
+#: admin/class-imdbi-admin.php:384
+msgid "Colombia"
+msgstr "کلمبیا"
+
+#: admin/class-imdbi-admin.php:385
+msgid "Hong Kong"
+msgstr "هنگ کنگ"
+
+#: admin/class-imdbi-admin.php:386
+msgid "Iran"
+msgstr "جمهوری اسلامی ایران"
+
+#: admin/class-imdbi-admin.php:387
+msgid "Malaysia"
+msgstr "مالزی"
+
+#: admin/class-imdbi-admin.php:388
+msgid "Pakistan"
+msgstr "پاکستان"
+
+#: admin/class-imdbi-admin.php:389
+msgid "Russia"
+msgstr "روسیه"
+
+#: admin/class-imdbi-admin.php:390
+msgid "Sweden"
+msgstr "سوئد"
+
+#: admin/class-imdbi-admin.php:391
+msgid "USA"
+msgstr "ایالات متحده آمریکا"
+
+#: admin/class-imdbi-admin.php:392
+msgid "Australia"
+msgstr "استرالیا"
+
+#: admin/class-imdbi-admin.php:393
+msgid "Bulgaria"
+msgstr "بلغارستان"
+
+#: admin/class-imdbi-admin.php:394
+msgid "Costa Rica"
+msgstr "کاستاریکا"
+
+#: admin/class-imdbi-admin.php:395
+msgid "France"
+msgstr "فرانسه"
+
+#: admin/class-imdbi-admin.php:396
+msgid "Hungary"
+msgstr "مجارستان"
+
+#: admin/class-imdbi-admin.php:397
+msgid "Ireland"
+msgstr "ایرلند"
+
+#: admin/class-imdbi-admin.php:398
+msgid "Mexico"
+msgstr "مکزیک"
+
+#: admin/class-imdbi-admin.php:399
+msgid "Poland"
+msgstr "لهستان"
+
+#: admin/class-imdbi-admin.php:400
+msgid "Singapore"
+msgstr "سنگاپور"
+
+#: admin/class-imdbi-admin.php:401
+msgid "Switzerland"
+msgstr "سوییس"
+
+#: admin/class-imdbi-admin.php:402
+msgid "Austria"
+msgstr "اتریش"
+
+#: admin/class-imdbi-admin.php:403
+msgid "Canada"
+msgstr "کانادا"
+
+#: admin/class-imdbi-admin.php:404
+msgid "Czech Republic"
+msgstr "جمهوری چک"
+
+#: admin/class-imdbi-admin.php:405
+msgid "Germany"
+msgstr "آلمان"
+
+#: admin/class-imdbi-admin.php:406
+msgid "Iceland"
+msgstr "ایسلند"
+
+#: admin/class-imdbi-admin.php:407
+msgid "Italy"
+msgstr "ایتالیا"
+
+#: admin/class-imdbi-admin.php:408
+msgid "Netherlands"
+msgstr "هلند"
+
+#: admin/class-imdbi-admin.php:409
+msgid "Portugal"
+msgstr "پرتغال"
+
+#: admin/class-imdbi-admin.php:410
+msgid "South Africa"
+msgstr "آفریقای جنوبی"
+
+#: admin/class-imdbi-admin.php:411
+msgid "Thailand"
+msgstr "تایلند"
+
+#: admin/class-imdbi-admin.php:412
+msgid "Belgium"
+msgstr "بلژیک"
+
+#: admin/class-imdbi-admin.php:413
+msgid "China"
+msgstr "جمهوري خلق چين"
+
+#: admin/class-imdbi-admin.php:414
+msgid "Denmark"
+msgstr "دانمارک"
+
+#: admin/class-imdbi-admin.php:415
+msgid "Greece"
+msgstr "یونان"
+
+#: admin/class-imdbi-admin.php:416
+msgid "India"
+msgstr "هندوستان"
+
+#: admin/class-imdbi-admin.php:417
+msgid "Japan"
+msgstr "ژاپن"
+
+#: admin/class-imdbi-admin.php:418
+msgid "New Zealand"
+msgstr "نیوزلند"
+
+#: admin/class-imdbi-admin.php:419
+msgid "Romania"
+msgstr "رومانی"
+
+#: admin/class-imdbi-admin.php:420
+msgid "Spain"
+msgstr "اسپانیا"
+
+#: admin/class-imdbi-admin.php:421
+msgid "UK"
+msgstr "انگلستان"
+
+#: admin/class-imdbi-admin.php:667
+msgid "warning:"
+msgstr "هشدار:"
+
+#: admin/class-imdbi-admin.php:668
+msgid "if you updated imdbi plugin to newer version, please read"
+msgstr "عملکرد توابع درنگارش جدید افزونه imdbi تغییر کرده اند."
+
+#: admin/class-imdbi-admin.php:669
+msgid "new documentation."
+msgstr "مطالعه مستندات جدید"
+
+#: admin/partials/imdbi-admin-view.php:55
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: admin/partials/imdbi-admin-view.php:61
+msgid "Posters Width"
+msgstr "عرض پوستر"
+
+#: admin/partials/imdbi-admin-view.php:67
+msgid ""
+"(enter 9999 means you choise the largest resulation that is available on "
+"media server.)"
+msgstr ""
+"(وارد کردن 9999 به معنای دریافت بزرگترین اندازه موجود روی سرور رسانه های "
+"imdb است.)"
+
+#: admin/partials/imdbi-admin-view.php:80
+msgid "Save all changes"
+msgstr "ذخیره تمامی تغییرات"
+
+#: admin/partials/imdbi-metabox-view.php:13
+msgid "Wellcome To IMDBI Explorer"
+msgstr "به کاوشگر فیلم و سریال خوش آمدید"
+
+#: admin/partials/imdbi-metabox-view.php:15
+msgid ""
+"You can use one of the following methods for find your favorite movie and "
+"series, then add it to the post"
+msgstr ""
+"با استفاده از یکی از روش های زیر عنوان موردنظر را پیدا و سپس اطلاعات آنرا به "
+"مطلب اضافه کنید."
+
+#: admin/partials/imdbi-metabox-view.php:20
+msgid "Search By Title"
+msgstr "جستجو براساس عنوان"
+
+#: admin/partials/imdbi-metabox-view.php:26
+msgid "Search By IMDB ID"
+msgstr "جستجو بر اساس شناسه IMDB"
+
+#: admin/partials/imdbi-metabox-view.php:37
+#: admin/partials/imdbi-metabox-view.php:62
+msgid "Change Search Type"
+msgstr "تغییر نوع جستجو"
+
+#: admin/partials/imdbi-metabox-view.php:41
+msgid "Enter Name of Movie/Series"
+msgstr "نام فیلم/سریال را وارد کنید"
+
+#: admin/partials/imdbi-metabox-view.php:45
+msgid "Year"
+msgstr "سال ساخت"
+
+#: admin/partials/imdbi-metabox-view.php:45
+msgid "(optional)"
+msgstr "(اختیاری)"
+
+#: admin/partials/imdbi-metabox-view.php:49
+msgid "Search"
+msgstr "جستجو"
+
+#: admin/partials/imdbi-metabox-view.php:52
+msgid "title field cannot be empty."
+msgstr "فیلد عنوان نباید خالی باشد"
+
+#: admin/partials/imdbi-metabox-view.php:66
+msgid "Enter IMDB ID"
+msgstr "شناسه imdb را وارد کنید"
+
+#: admin/partials/imdbi-metabox-view.php:70
+msgid "Retrieve Information"
+msgstr "ثبت اطلاعات"
+
+#: admin/partials/imdbi-metabox-view.php:73
+msgid "IMDB ID field cannot be empty."
+msgstr "فیلد شناسه IMDB نباید خالی باشد"
+
+#: admin/partials/imdbi-metabox-view.php:76
+msgid "invalid IMDB ID pattern."
+msgstr "شناسه IMDB مطابق با الگو نیست"
+
+#: admin/partials/imdbi-metabox-view.php:92
+msgid "Loading ..."
+msgstr "در حال بارگذاری ..."
+
+#: admin/partials/imdbi-metabox-view.php:105
+msgid "Information was received successfully"
+msgstr "اطلاعات با موفقیت دریافت شد"
+
+#: admin/partials/imdbi-metabox-view.php:107
+msgid "Translate common fields"
+msgstr "ترجمه فیلد های متداول"
+
+#: admin/partials/imdbi-metabox-view.php:108
+msgid "Remove"
+msgstr "حذف"
+
+#: admin/partials/imdbi-metabox-view.php:117
+msgid "Common Fields"
+msgstr "زمینه های پرکاربرد"
+
+#: admin/partials/imdbi-metabox-view.php:118
+msgid "Other Fields"
+msgstr "زمینه های دیگر"
+
+#: admin/partials/imdbi-metabox-view.php:132 admin/partials/omdb_view.php:232
+msgid "Genre:"
+msgstr "ژانر:"
+
+#: admin/partials/imdbi-metabox-view.php:143
+msgid "Country:"
+msgstr "کشور:"
+
+#: admin/partials/imdbi-metabox-view.php:154
+msgid "Language:"
+msgstr "زبان:"
+
+#: admin/partials/imdbi-metabox-view.php:166
+msgid "Awards:"
+msgstr "جوایز:"
+
+#: admin/partials/imdbi-metabox-view.php:178
+msgid "Plot:"
+msgstr "خلاصه داستان:"
+
+#: admin/partials/imdbi-metabox-view.php:189
+#: admin/partials/imdbi-metabox-view.php:405
+msgid "metabox values will change after publish/update the post."
+msgstr "این مقادیر پس از بروزرسانی/انتشار مطلب ثبت خواهند شد."
+
+#: admin/partials/imdbi-metabox-view.php:205
+msgid "MPAA Rating (age):"
+msgstr "رده سنی"
+
+#: admin/partials/imdbi-metabox-view.php:216
+msgid "Relase Date:"
+msgstr "تاریخ انتشار:"
+
+#: admin/partials/imdbi-metabox-view.php:227
+msgid "Runtime (minute):"
+msgstr "مدت زمان (به دقیقه):"
+
+#: admin/partials/imdbi-metabox-view.php:239 admin/partials/omdb_view.php:246
+msgid "Director:"
+msgstr "کارگردان:"
+
+#: admin/partials/imdbi-metabox-view.php:251
+msgid "Writer:"
+msgstr "نویسنده:"
+
+#: admin/partials/imdbi-metabox-view.php:263
+msgid "Actors:"
+msgstr "بازیگران:"
+
+#: admin/partials/imdbi-metabox-view.php:275 admin/partials/omdb_view.php:241
+msgid "Metascore:"
+msgstr "امتیاز منتقدین:"
+
+#: admin/partials/imdbi-metabox-view.php:287 admin/partials/omdb_view.php:237
+msgid "Rating:"
+msgstr "رتبه:"
+
+#: admin/partials/imdbi-metabox-view.php:299
+msgid "Votes:"
+msgstr "تعداد آراء:"
+
+#: admin/partials/imdbi-metabox-view.php:311
+msgid "Gross:"
+msgstr "سود خالص:"
+
+#: admin/partials/imdbi-metabox-view.php:324
+msgid "Budget:"
+msgstr "بودجه:"
+
+#: admin/partials/imdbi-metabox-view.php:336
+msgid "Poster Url:"
+msgstr "آدرس پوستر:"
+
+#: admin/partials/imdbi-metabox-view.php:348
+msgid "Trailer Url:"
+msgstr "آدرس تریلر:"
+
+#: admin/partials/imdbi-metabox-view.php:361
+msgid "imdbID:"
+msgstr "شناسه IMDB:"
+
+#: admin/partials/imdbi-metabox-view.php:372
+msgid "Title:"
+msgstr "عنوان:"
+
+#: admin/partials/imdbi-metabox-view.php:383
+msgid "Year:"
+msgstr "سال تولید:"
+
+#: admin/partials/imdbi-metabox-view.php:394
+msgid "Type:"
+msgstr "نوع:"
+
+#: admin/partials/omdb_view.php:24
+msgid "Uh-oh Nothing Found."
+msgstr "ای وای چیزی یافت نشد."
+
+#: admin/partials/omdb_view.php:26
+msgid "let's try again"
+msgstr "تلاش مجدد"
+
+#: admin/partials/omdb_view.php:39 admin/partials/omdb_view.php:54
+msgid "← Back"
+msgstr "بازگشت ←"
+
+#: admin/partials/omdb_view.php:227
+msgid "Release Date:"
+msgstr "تاریخ انتشار:"
+
+#: admin/partials/omdb_view.php:237
+#, php-format
+msgid "from %s users"
+msgstr "توسط  %s کاربر"
+
+#: admin/partials/omdb_view.php:253
+msgid "Stars:"
+msgstr "ستارگان:"
+
+#: admin/partials/omdb_view.php:267
+msgid "Submit Information"
+msgstr "ثبت اطلاعات"
+
+#: public/imdbi-public-functions.php:81 public/imdbi-public-functions.php:120
+#: public/imdbi-public-functions.php:139 public/imdbi-public-functions.php:177
+msgid "N/A"
+msgstr "نامشخص"
+
+#. Plugin Name of the plugin/theme
+msgid "imdbi"
+msgstr "imdbi"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wordpress.org/plugins/imdbi"
+msgstr "http://www.wordpress.org/plugins/imdbi"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin will retrieve movie/series information, all content, images and "
+"trailers."
+msgstr ""
+"به کمک این افزونه می‌توانید اطلاعات فیلم یا سریال موردنظرتان را پیدا، و آنرا "
+"به مطلب اضافه کنید."
+
+#. Author of the plugin/theme
+msgid "mohammad azami"
+msgstr "محمد اعظمی"
+
+#. Author URI of the plugin/theme
+msgid "http://www.iazami.ir/"
+msgstr "http://www.iazami.ir/"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "FeedBack"
+#~ msgstr "انتقادات و پیشنهادات"
+
+#~ msgid "instructions"
+#~ msgstr "دستورالعمل ها"
+
+#~ msgid "Posters Size"
+#~ msgstr "اندازه پوستر ها"
+
+#~ msgid ""
+#~ "(In pixels, only enter the width. also 9999 define largest size that is "
+#~ "available on media server.)"
+#~ msgstr ""
+#~ "(به پیکسل وارد شود، این فیلد فقط مقدار عرض تصویر را تعیین می کند. همچنین "
+#~ "وارد کردن مقدار 9999 به معنای دریافت بزرگترین سایز موجود در مدیا سرور است)"
+
+#~ msgid "Short Codes"
+#~ msgstr "کدهای کوتاه"
+
+#~ msgid "Functions"
+#~ msgstr "توابع"
+
+#~ msgid "Notes"
+#~ msgstr "یادداشت ها"
