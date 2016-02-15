@@ -36,9 +36,6 @@ To translate the plugin:
 3. Send a pull request
 
 
-## Issues
-Follow [GitHub issue tracker](https://github.com/iazami/imdbi/issues)
-
 ## Changelog
 **Version 2.0.0-beta:**
 * new: refactor entire source code
