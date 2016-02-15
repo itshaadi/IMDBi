@@ -1,8 +1,9 @@
 ![Meta Box View](https://github.com/iazami/imdbi/blob/master/screenshots/screenshot-1.PNG)
 IMDBI is a wordpress plugin to receiving movie/series information, all content, poster and trailer from IMDB.
+<br/>
 **[Function Reference](https://github.com/iazami/imdbi/wiki/Function-Reference)**
 
-### Features:
+### Features
 * Ajax Searching.
 * custom poster size.
 * editable search results.
