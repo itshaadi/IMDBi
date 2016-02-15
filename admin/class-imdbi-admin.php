@@ -666,7 +666,7 @@ class Imdbi_Admin {
 				<a href="#" id="imdbi-warning-close"><span class="dashicons dashicons-dismiss"></span></a>
 			<b><?php _e( 'warning:', $this->plugin_name ); ?></b>
 			 <?php _e( 'if you updated imdbi plugin to newer version, please read', $this->plugin_name ); ?>
-			 <a href="#" target="_blank"><?php _e('new documentation.',$this->plugin_name); ?></a>
+			 <a href="https://github.com/iazami/imdbi/wiki/Function-Reference" target="_blank"><?php _e('Function Reference',$this->plugin_name); ?></a>
 			</p>
 			 </div>
 		<?php

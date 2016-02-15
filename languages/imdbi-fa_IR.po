@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: imdbi\n"
-"POT-Creation-Date: 2016-02-15 16:38+0330\n"
-"PO-Revision-Date: 2016-02-15 16:38+0330\n"
+"POT-Creation-Date: 2016-02-15 21:01+0330\n"
+"PO-Revision-Date: 2016-02-15 21:04+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -314,10 +314,10 @@ msgstr "هشدار:"
 
 #: admin/class-imdbi-admin.php:668
 msgid "if you updated imdbi plugin to newer version, please read"
-msgstr "عملکرد توابع درنگارش جدید افزونه imdbi تغییر کرده اند."
+msgstr "عملکرد توابع درنگارش جدید افزونه imdbi تغییر کرده است."
 
 #: admin/class-imdbi-admin.php:669
-msgid "new documentation."
+msgid "Function Reference"
 msgstr "مطالعه مستندات جدید"
 
 #: admin/partials/imdbi-admin-view.php:55
@@ -575,6 +575,9 @@ msgstr "محمد اعظمی"
 #. Author URI of the plugin/theme
 msgid "http://www.iazami.ir/"
 msgstr "http://www.iazami.ir/"
+
+#~ msgid "new documentation."
+#~ msgstr "مطالعه مستندات جدید"
 
 #~ msgid "General"
 #~ msgstr "عمومی"
