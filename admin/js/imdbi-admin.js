@@ -13,7 +13,7 @@
 		/**
 		* display warning message for once.
 		*/
-		if(!sessionStorage.getItem('imdbi_warning')) {
+		if(!localStorage.getItem('imdbi_warning')) {
 			$(".imdbi-warning").fadeIn("fast");
 		}
 
@@ -339,8 +339,8 @@
 
 		$("#imdbi-warning-close").click(function(e){
 
-			if(!sessionStorage.getItem('imdbi_warning')) {
-				sessionStorage.setItem('imdbi_warning','true');
+			if(!localStorage.getItem('imdbi_warning')) {
+				localStorage.setItem('imdbi_warning','true');
 				$(".imdbi-warning").fadeOut("fast");
 			}
 
