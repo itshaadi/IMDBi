@@ -1,5 +1,5 @@
 #IMDBi
-![Banner 720x250](http://up.vbiran.ir/uploads/28106145555976142631_banner-720x250.jpg)
+![Banner 720x250](http://up.vbiran.ir/uploads/38370145572453843585_banner-980x250.jpg)
 <br/><br/>
 **IMDBi** is a wordpress plugin. With this plugin installed, you could get information about movies / series you want, and use them in your posts by shortcodes or in your own template using functions.
 Note that this plugin doesn't have any templates packed in, you have to create a template if you want to ([Function Reference](https://github.com/iazami/imdbi/wiki/Function-Reference)).
