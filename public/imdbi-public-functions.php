@@ -13,10 +13,10 @@ function imdbi_check($name){
   $name = trim(strtolower($name));
 
   if($name == "poster" ){
-    if( !empty( get_post_meta($post->ID, 'IMDBI_Poster', true) ) ){
+    if( get_post_meta($post->ID, 'IMDBI_Poster', true) != ''  ){
       return true;
     }
-    elseif(empty( get_post_meta($post->ID, 'IMDBI_Poster', true) )){
+    elseif( get_post_meta($post->ID, 'IMDBI_Poster', true) == '' ){
       return true;
     }
     else{
@@ -51,7 +51,7 @@ function imdbi_check($name){
 
   /* Indolence is the key :) who need switch cases ? */
   foreach($fields as $meta_name => $meta_key){
-    if( $name == $meta_name && !empty( get_post_meta( $post->ID, $meta_key, true ) ) ){
+    if( $name == $meta_name && get_post_meta( $post->ID, $meta_key, true ) != '' ){
       return true;
     }
     else{
@@ -69,10 +69,10 @@ function imdbi($name){
   $name = trim(strtolower($name));
 
   if($name == "poster" ){
-    if( !empty( get_post_meta($post->ID, 'IMDBI_Poster', true) ) ){
+    if( get_post_meta($post->ID, 'IMDBI_Poster', true) != '' ){
     return get_post_meta( $post->ID, 'IMDBI_Poster', true );
     }
-    elseif(empty( get_post_meta($post->ID, 'IMDBI_Poster', true) )){
+    elseif( get_post_meta($post->ID, 'IMDBI_Poster', true) == '' ){
       return wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); // if there is no POSTER it will print thumbnail url
     }
     else{
@@ -107,7 +107,7 @@ function imdbi($name){
 
   /* Indolence is the key :) who need switch cases ? */
   foreach($fields as $meta_name => $meta_key){
-    if( $name == $meta_name && !empty( get_post_meta( $post->ID, $meta_key, true ) ) ){
+    if( $name == $meta_name && get_post_meta( $post->ID, $meta_key, true ) != '' ){
       return get_post_meta( $post->ID, $meta_key, true );
     }
     else{
@@ -126,10 +126,10 @@ function imdbi_fetch_meta($name){
   $name = trim(strtolower($name));
 
   if($name == "poster" ){
-    if( !empty( get_post_meta($post->ID, 'IMDBI_Poster', true) ) ){
+    if( get_post_meta($post->ID, 'IMDBI_Poster', true) != '' ){
     return get_post_meta( $post->ID, 'IMDBI_Poster', true );
     }
-    elseif(empty( get_post_meta($post->ID, 'IMDBI_Poster', true) )){
+    elseif( get_post_meta($post->ID, 'IMDBI_Poster', true) == '' ){
       return wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); // if there is no POSTER it will print thumbnail url
     }
     else{
@@ -164,7 +164,7 @@ function imdbi_fetch_meta($name){
 
   /* Indolence is the key :) who need switch cases ? */
   foreach($fields as $meta_name => $meta_key){
-    if( $name == $meta_name && !empty( get_post_meta( $post->ID, $meta_key, true ) ) ){
+    if( $name == $meta_name && get_post_meta( $post->ID, $meta_key, true ) != '' ){
       return get_post_meta( $post->ID, $meta_key, true );
     }
     else{
