@@ -25,28 +25,4 @@ There is various ways for installing the plugin.
 * PHP >= 5.3
 * WordPress >= 3.8
 
-## Translations
-Translations welcome! Translators name will credited in WordPress repository page.
 
-To translate the plugin:
-
-1. Fork the repository
-2. Translate strings with poEdit or anyother software you want.
-3. Send a pull request
-
-
-## Changelog
-**Version 2.0.0-beta:**
-* new: refactor entire source code
-* new: plugin is now available in both english and persian.
-* new: improving meta box UI.
-* new: uploading poster automatically via url.
-* new: custom poster size.
-* fixed: search results are now editable.
-* fixed: ajax search crashing.
-* fixed: crawler crash causes.
-* fixed: leaking out data.
-* fixed: shortcode issues.
-* fixed: `imdbi()` is now expecting one argument.
-* fixed: `imdbi('poster')` is now only return poster url.
-* fixed: `imdbi_check()` is now expecting meta box name as argument ( eg: `imdbi_check('year')` ).
