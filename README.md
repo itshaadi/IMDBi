@@ -1,7 +1,7 @@
 #IMDBi
 ![Banner 720x250](http://up.vbiran.ir/uploads/28106145555976142631_banner-720x250.jpg)
 <br/><br/>
-**IMDBi** is a wordpress plugin to receiving movie/series information, all content, poster and trailer from IMDB.
+**IMDBi** is a wordpress plugin to recive movie/series information and add them into your posts using omdbapi(http://www.omdbapi.com) which provides information from Imdb.
 <br/>
 **[Function Reference](https://github.com/iazami/imdbi/wiki/Function-Reference)**
 
