@@ -22,7 +22,7 @@ There is various ways for installing the plugin.
 3. [Download latest production version](https://wordpress.org/plugins/imdbi) from WordPress official repository.
 
 ##### Requirements:
-* PHP >= 5.3
+* PHP >= 5.5
 * WordPress >= 3.8
 
 
