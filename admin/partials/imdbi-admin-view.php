@@ -67,6 +67,17 @@
 									<i><?php _e('(enter 9999 means you choise the largest resulation that is available on media server.)',$this->plugin_name); ?></i>
 								</td>
 							</tr>
+							<tr>
+								<th></th>
+								<td>
+									<fieldset>
+										<label for="<?php echo $this->plugin_name; ?>[download_posters]">
+											<input name="<?php echo $this->plugin_name; ?>[download_posters]" type="checkbox" id="<?php echo $this->plugin_name; ?>-download_posters" value="1" <?php checked( '1', $options['download_posters'] ); ?> />
+											<span><?php esc_attr_e( 'Download posters automatically.', $this->plugin_name ); ?></span>
+										</label>
+									</fieldset>
+								</td>
+							</tr>
 						</tbody>
 					</table>
 

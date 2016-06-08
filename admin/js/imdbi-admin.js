@@ -13,9 +13,6 @@
 		/**
 		* display warning message for once.
 		*/
-		if(!localStorage.getItem('imdbi_warning')) {
-			$(".imdbi-warning").fadeIn("fast");
-		}
 
 
 		if( $("input[name=imdbi-imdbid-value]").val() != '' ){
@@ -335,17 +332,6 @@
 					e.preventDefault();
 						$("#imdbi-id-submit").click();
 				}
-		});
-
-		$("#imdbi-warning-close").click(function(e){
-
-			if(!localStorage.getItem('imdbi_warning')) {
-				localStorage.setItem('imdbi_warning','true');
-				$(".imdbi-warning").fadeOut("fast");
-			}
-
-			e.preventDefault();
-
 		});
 
 	 });

@@ -142,6 +142,8 @@ class Imdbi {
 	 */
 	private function define_admin_hooks() {
 
+		$options = get_option($this->plugin_name);
+
 		$plugin_admin = new Imdbi_Admin( $this->get_plugin_name(), $this->get_version() );
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
@@ -164,11 +166,13 @@ class Imdbi {
 		// initialize crawler function to listening into incomming data
 		$this->loader->add_action('admin_init', $plugin_admin, 'imdbi_run_crawler');
 
-		// upload poster via url
-		$this->loader->add_action('admin_init', $plugin_admin, 'imdbi_save_poster');
+		if($options['download_posters'] == '1'){
+			// upload poster via url
+			$this->loader->add_action('admin_init', $plugin_admin, 'imdbi_save_poster');
+		}
 
 		//display warning message for first time.
-		$this->loader->add_action('admin_notices', $plugin_admin, 'imdbi_warning');
+		//$this->loader->add_action('admin_notices', $plugin_admin, 'imdbi_warning');
 
 	}
 

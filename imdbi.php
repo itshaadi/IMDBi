@@ -6,7 +6,7 @@
  * Plugin Name:       imdbi
  * Plugin URI:        http://www.wordpress.org/plugins/imdbi
  * Description:       This plugin will retrieve movie/series information, all content, images and trailers.
- * Version:           2.0.0-beta
+ * Version:           2.0.0
  * Author:            mohammad azami
  * Author URI:        http://www.iazami.ir/
  * License:           GPL-2.0+

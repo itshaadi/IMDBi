@@ -8,6 +8,9 @@
 *
 *
 */
+
+$options = get_option($this->plugin_name);
+
 $media_server = "http://ia.media-imdb.com";
 $no_block = "http://nfqq.nvswi2lbfvuw2zdcfzrw63i.nblu.ru"; // media server miror
 $imdb = "http://o53xo.nfwwiyromnxw2.nblu.ru/title/"; // imdbi.com/title mirror
@@ -23,7 +26,7 @@ set_time_limit ( 0 );
     <center>
     <h1><?php _e('Uh-oh Nothing Found.', $this->plugin_name); ?></h1>
     <br/>
-    <a class="button-secondary crawler-error-btn" href="#" title="<?php esc_attr_e( "let's try again" ); ?>"><?php esc_attr_e( "let's try again" ); ?></a>
+    <a class="button-secondary crawler-error-btn" href="#" title="<?php esc_attr_e( "let's try again" ); ?>"><?php esc_attr_e( "let's try again", $this->plugin_name ); ?></a>
     </center>
     <br/><br/>
     </div>
@@ -290,7 +293,7 @@ $fields = $this->omdb_serialize($fields);
         <li id="imdbi-crawler-language"><?php echo $fields["Language"]; ?></li>
         <li id="imdbi-crawler-country"><?php echo $fields["Country"]; ?></li>
         <li id="imdbi-crawler-awards"><?php echo $fields["Awards"]; ?></li>
-        <li id="imdbi-crawler-poster"><?php echo $poster; ?></li>
+        <li id="imdbi-crawler-poster"><?php if($options['download_posters'] == '1'){echo $poster;}else{echo 'N/A';} ?></li>
         <li id="imdbi-crawler-metascore"><?php echo $fields["Metascore"]; ?></li>
         <li id="imdbi-crawler-imdbrating"><?php echo $fields["imdbRating"]; ?></li>
         <li id="imdbi-crawler-imdbvotes"><?php echo $fields["imdbVotes"]; ?></li>

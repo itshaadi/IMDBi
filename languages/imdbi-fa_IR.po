@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: imdbi\n"
-"POT-Creation-Date: 2016-02-15 21:01+0330\n"
-"PO-Revision-Date: 2016-02-15 21:04+0330\n"
+"POT-Creation-Date: 2016-06-08 22:03+0430\n"
+"PO-Revision-Date: 2016-06-08 22:08+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: imdbi.php\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -28,295 +28,295 @@ msgstr "تنظیمات imdbi"
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: admin/class-imdbi-admin.php:154
+#: admin/class-imdbi-admin.php:156
 msgid "poster size must be a number."
 msgstr "مقدار عرض پوستر باید به صورت عددی وارد شود."
 
-#: admin/class-imdbi-admin.php:195
+#: admin/class-imdbi-admin.php:197
 msgid "Search movies and TV series"
 msgstr "کاوشگر فیلم و سریال"
 
-#: admin/class-imdbi-admin.php:344
+#: admin/class-imdbi-admin.php:346
 msgid "Action"
 msgstr "اکشن"
 
-#: admin/class-imdbi-admin.php:345
+#: admin/class-imdbi-admin.php:347
 msgid "Animation"
 msgstr "انیمیشن"
 
-#: admin/class-imdbi-admin.php:346
+#: admin/class-imdbi-admin.php:348
 msgid "Comedy"
 msgstr "کمدی"
 
-#: admin/class-imdbi-admin.php:347
+#: admin/class-imdbi-admin.php:349
 msgid "Documentary"
 msgstr "مستند"
 
-#: admin/class-imdbi-admin.php:348
+#: admin/class-imdbi-admin.php:350
 msgid "Family"
 msgstr "خانوادگی"
 
-#: admin/class-imdbi-admin.php:349
+#: admin/class-imdbi-admin.php:351
 msgid "Film-Noir"
 msgstr "نوار فیلم"
 
-#: admin/class-imdbi-admin.php:350
+#: admin/class-imdbi-admin.php:352
 msgid "Horror"
 msgstr "ترسناک"
 
-#: admin/class-imdbi-admin.php:351
+#: admin/class-imdbi-admin.php:353
 msgid "Musical"
 msgstr "موزیکال"
 
-#: admin/class-imdbi-admin.php:352
+#: admin/class-imdbi-admin.php:354
 msgid "Romance"
 msgstr "رمانتیک"
 
-#: admin/class-imdbi-admin.php:353
+#: admin/class-imdbi-admin.php:355
 msgid "Sport"
 msgstr "ورزشی"
 
-#: admin/class-imdbi-admin.php:354
+#: admin/class-imdbi-admin.php:356
 msgid "War"
 msgstr "جنگی"
 
-#: admin/class-imdbi-admin.php:355
+#: admin/class-imdbi-admin.php:357
 msgid "Adventure"
 msgstr "ماجراجویی"
 
-#: admin/class-imdbi-admin.php:356
+#: admin/class-imdbi-admin.php:358
 msgid "Biography"
 msgstr "بیوگرافی"
 
-#: admin/class-imdbi-admin.php:357
+#: admin/class-imdbi-admin.php:359
 msgid "Crime"
 msgstr "جنایی"
 
-#: admin/class-imdbi-admin.php:358
+#: admin/class-imdbi-admin.php:360
 msgid "Drama"
 msgstr "درام"
 
-#: admin/class-imdbi-admin.php:359
+#: admin/class-imdbi-admin.php:361
 msgid "Fantasy"
 msgstr "فانتزی"
 
-#: admin/class-imdbi-admin.php:360
+#: admin/class-imdbi-admin.php:362
 msgid "History"
 msgstr "تاریخی"
 
-#: admin/class-imdbi-admin.php:361
+#: admin/class-imdbi-admin.php:363
 msgid "Music"
 msgstr "موسیقی"
 
-#: admin/class-imdbi-admin.php:362
+#: admin/class-imdbi-admin.php:364
 msgid "Mystery"
 msgstr "رازآلود"
 
-#: admin/class-imdbi-admin.php:363
+#: admin/class-imdbi-admin.php:365
 msgid "Sci-Fi"
 msgstr "علمی تخیلی"
 
-#: admin/class-imdbi-admin.php:364
+#: admin/class-imdbi-admin.php:366
 msgid "Thriller"
 msgstr "هیجان انگیز"
 
-#: admin/class-imdbi-admin.php:365
+#: admin/class-imdbi-admin.php:367
 msgid "Western"
 msgstr "وسترن"
 
-#: admin/class-imdbi-admin.php:366
+#: admin/class-imdbi-admin.php:368
 msgid "News"
 msgstr "خبری"
 
-#: admin/class-imdbi-admin.php:367
+#: admin/class-imdbi-admin.php:369
 msgid "Sitcom"
 msgstr "کمدی موقعیت"
 
-#: admin/class-imdbi-admin.php:368
+#: admin/class-imdbi-admin.php:370
 msgid "Reality-TV"
 msgstr "واقعی"
 
-#: admin/class-imdbi-admin.php:369
+#: admin/class-imdbi-admin.php:371
 msgid "Game-Show"
 msgstr "نقد  بازی"
 
-#: admin/class-imdbi-admin.php:370
+#: admin/class-imdbi-admin.php:372
 msgid "Talk-Show"
 msgstr "برنامه گفتمانی (تاک شو)"
 
-#: admin/class-imdbi-admin.php:371
+#: admin/class-imdbi-admin.php:373
 msgid "short"
 msgstr "فیلم کوتاه"
 
-#: admin/class-imdbi-admin.php:382
+#: admin/class-imdbi-admin.php:384
 msgid "Argentina"
 msgstr "آرژانتین"
 
-#: admin/class-imdbi-admin.php:383
+#: admin/class-imdbi-admin.php:385
 msgid "Brazil"
 msgstr "برزیل"
 
-#: admin/class-imdbi-admin.php:384
+#: admin/class-imdbi-admin.php:386
 msgid "Colombia"
 msgstr "کلمبیا"
 
-#: admin/class-imdbi-admin.php:385
+#: admin/class-imdbi-admin.php:387
 msgid "Hong Kong"
 msgstr "هنگ کنگ"
 
-#: admin/class-imdbi-admin.php:386
+#: admin/class-imdbi-admin.php:388
 msgid "Iran"
 msgstr "جمهوری اسلامی ایران"
 
-#: admin/class-imdbi-admin.php:387
+#: admin/class-imdbi-admin.php:389
 msgid "Malaysia"
 msgstr "مالزی"
 
-#: admin/class-imdbi-admin.php:388
+#: admin/class-imdbi-admin.php:390
 msgid "Pakistan"
 msgstr "پاکستان"
 
-#: admin/class-imdbi-admin.php:389
+#: admin/class-imdbi-admin.php:391
 msgid "Russia"
 msgstr "روسیه"
 
-#: admin/class-imdbi-admin.php:390
+#: admin/class-imdbi-admin.php:392
 msgid "Sweden"
 msgstr "سوئد"
 
-#: admin/class-imdbi-admin.php:391
+#: admin/class-imdbi-admin.php:393
 msgid "USA"
 msgstr "ایالات متحده آمریکا"
 
-#: admin/class-imdbi-admin.php:392
+#: admin/class-imdbi-admin.php:394
 msgid "Australia"
 msgstr "استرالیا"
 
-#: admin/class-imdbi-admin.php:393
+#: admin/class-imdbi-admin.php:395
 msgid "Bulgaria"
 msgstr "بلغارستان"
 
-#: admin/class-imdbi-admin.php:394
+#: admin/class-imdbi-admin.php:396
 msgid "Costa Rica"
 msgstr "کاستاریکا"
 
-#: admin/class-imdbi-admin.php:395
+#: admin/class-imdbi-admin.php:397
 msgid "France"
 msgstr "فرانسه"
 
-#: admin/class-imdbi-admin.php:396
+#: admin/class-imdbi-admin.php:398
 msgid "Hungary"
 msgstr "مجارستان"
 
-#: admin/class-imdbi-admin.php:397
+#: admin/class-imdbi-admin.php:399
 msgid "Ireland"
 msgstr "ایرلند"
 
-#: admin/class-imdbi-admin.php:398
+#: admin/class-imdbi-admin.php:400
 msgid "Mexico"
 msgstr "مکزیک"
 
-#: admin/class-imdbi-admin.php:399
+#: admin/class-imdbi-admin.php:401
 msgid "Poland"
 msgstr "لهستان"
 
-#: admin/class-imdbi-admin.php:400
+#: admin/class-imdbi-admin.php:402
 msgid "Singapore"
 msgstr "سنگاپور"
 
-#: admin/class-imdbi-admin.php:401
+#: admin/class-imdbi-admin.php:403
 msgid "Switzerland"
 msgstr "سوییس"
 
-#: admin/class-imdbi-admin.php:402
+#: admin/class-imdbi-admin.php:404
 msgid "Austria"
 msgstr "اتریش"
 
-#: admin/class-imdbi-admin.php:403
+#: admin/class-imdbi-admin.php:405
 msgid "Canada"
 msgstr "کانادا"
 
-#: admin/class-imdbi-admin.php:404
+#: admin/class-imdbi-admin.php:406
 msgid "Czech Republic"
 msgstr "جمهوری چک"
 
-#: admin/class-imdbi-admin.php:405
+#: admin/class-imdbi-admin.php:407
 msgid "Germany"
 msgstr "آلمان"
 
-#: admin/class-imdbi-admin.php:406
+#: admin/class-imdbi-admin.php:408
 msgid "Iceland"
 msgstr "ایسلند"
 
-#: admin/class-imdbi-admin.php:407
+#: admin/class-imdbi-admin.php:409
 msgid "Italy"
 msgstr "ایتالیا"
 
-#: admin/class-imdbi-admin.php:408
+#: admin/class-imdbi-admin.php:410
 msgid "Netherlands"
 msgstr "هلند"
 
-#: admin/class-imdbi-admin.php:409
+#: admin/class-imdbi-admin.php:411
 msgid "Portugal"
 msgstr "پرتغال"
 
-#: admin/class-imdbi-admin.php:410
+#: admin/class-imdbi-admin.php:412
 msgid "South Africa"
 msgstr "آفریقای جنوبی"
 
-#: admin/class-imdbi-admin.php:411
+#: admin/class-imdbi-admin.php:413
 msgid "Thailand"
 msgstr "تایلند"
 
-#: admin/class-imdbi-admin.php:412
+#: admin/class-imdbi-admin.php:414
 msgid "Belgium"
 msgstr "بلژیک"
 
-#: admin/class-imdbi-admin.php:413
+#: admin/class-imdbi-admin.php:415
 msgid "China"
 msgstr "جمهوري خلق چين"
 
-#: admin/class-imdbi-admin.php:414
+#: admin/class-imdbi-admin.php:416
 msgid "Denmark"
 msgstr "دانمارک"
 
-#: admin/class-imdbi-admin.php:415
+#: admin/class-imdbi-admin.php:417
 msgid "Greece"
 msgstr "یونان"
 
-#: admin/class-imdbi-admin.php:416
+#: admin/class-imdbi-admin.php:418
 msgid "India"
 msgstr "هندوستان"
 
-#: admin/class-imdbi-admin.php:417
+#: admin/class-imdbi-admin.php:419
 msgid "Japan"
 msgstr "ژاپن"
 
-#: admin/class-imdbi-admin.php:418
+#: admin/class-imdbi-admin.php:420
 msgid "New Zealand"
 msgstr "نیوزلند"
 
-#: admin/class-imdbi-admin.php:419
+#: admin/class-imdbi-admin.php:421
 msgid "Romania"
 msgstr "رومانی"
 
-#: admin/class-imdbi-admin.php:420
+#: admin/class-imdbi-admin.php:422
 msgid "Spain"
 msgstr "اسپانیا"
 
-#: admin/class-imdbi-admin.php:421
+#: admin/class-imdbi-admin.php:423
 msgid "UK"
 msgstr "انگلستان"
 
-#: admin/class-imdbi-admin.php:667
+#: admin/class-imdbi-admin.php:669
 msgid "warning:"
 msgstr "هشدار:"
 
-#: admin/class-imdbi-admin.php:668
+#: admin/class-imdbi-admin.php:670
 msgid "if you updated imdbi plugin to newer version, please read"
 msgstr "عملکرد توابع درنگارش جدید افزونه imdbi تغییر کرده است."
 
-#: admin/class-imdbi-admin.php:669
+#: admin/class-imdbi-admin.php:671
 msgid "Function Reference"
 msgstr "مطالعه مستندات جدید"
 
@@ -336,7 +336,11 @@ msgstr ""
 "(وارد کردن 9999 به معنای دریافت بزرگترین اندازه موجود روی سرور رسانه های "
 "imdb است.)"
 
-#: admin/partials/imdbi-admin-view.php:80
+#: admin/partials/imdbi-admin-view.php:76
+msgid "Download posters automatically."
+msgstr "دانلود پوسترها به صورت خودکار."
+
+#: admin/partials/imdbi-admin-view.php:91
 msgid "Save all changes"
 msgstr "ذخیره تمامی تغییرات"
 
@@ -425,7 +429,7 @@ msgstr "زمینه های پرکاربرد"
 msgid "Other Fields"
 msgstr "زمینه های دیگر"
 
-#: admin/partials/imdbi-metabox-view.php:132 admin/partials/omdb_view.php:232
+#: admin/partials/imdbi-metabox-view.php:132 admin/partials/omdb_view.php:235
 msgid "Genre:"
 msgstr "ژانر:"
 
@@ -462,7 +466,7 @@ msgstr "تاریخ انتشار:"
 msgid "Runtime (minute):"
 msgstr "مدت زمان (به دقیقه):"
 
-#: admin/partials/imdbi-metabox-view.php:239 admin/partials/omdb_view.php:246
+#: admin/partials/imdbi-metabox-view.php:239 admin/partials/omdb_view.php:249
 msgid "Director:"
 msgstr "کارگردان:"
 
@@ -474,11 +478,11 @@ msgstr "نویسنده:"
 msgid "Actors:"
 msgstr "بازیگران:"
 
-#: admin/partials/imdbi-metabox-view.php:275 admin/partials/omdb_view.php:241
+#: admin/partials/imdbi-metabox-view.php:275 admin/partials/omdb_view.php:244
 msgid "Metascore:"
 msgstr "امتیاز منتقدین:"
 
-#: admin/partials/imdbi-metabox-view.php:287 admin/partials/omdb_view.php:237
+#: admin/partials/imdbi-metabox-view.php:287 admin/partials/omdb_view.php:240
 msgid "Rating:"
 msgstr "رتبه:"
 
@@ -518,37 +522,37 @@ msgstr "سال تولید:"
 msgid "Type:"
 msgstr "نوع:"
 
-#: admin/partials/omdb_view.php:24
+#: admin/partials/omdb_view.php:27
 msgid "Uh-oh Nothing Found."
 msgstr "ای وای چیزی یافت نشد."
 
-#: admin/partials/omdb_view.php:26
+#: admin/partials/omdb_view.php:29
 msgid "let's try again"
 msgstr "تلاش مجدد"
 
-#: admin/partials/omdb_view.php:39 admin/partials/omdb_view.php:54
+#: admin/partials/omdb_view.php:42 admin/partials/omdb_view.php:57
 msgid "← Back"
 msgstr "بازگشت ←"
 
-#: admin/partials/omdb_view.php:227
+#: admin/partials/omdb_view.php:230
 msgid "Release Date:"
 msgstr "تاریخ انتشار:"
 
-#: admin/partials/omdb_view.php:237
+#: admin/partials/omdb_view.php:240
 #, php-format
 msgid "from %s users"
 msgstr "توسط  %s کاربر"
 
-#: admin/partials/omdb_view.php:253
+#: admin/partials/omdb_view.php:256
 msgid "Stars:"
 msgstr "ستارگان:"
 
-#: admin/partials/omdb_view.php:267
+#: admin/partials/omdb_view.php:270
 msgid "Submit Information"
 msgstr "ثبت اطلاعات"
 
-#: public/imdbi-public-functions.php:81 public/imdbi-public-functions.php:120
-#: public/imdbi-public-functions.php:139 public/imdbi-public-functions.php:177
+#: public/imdbi-public-functions.php:79 public/imdbi-public-functions.php:117
+#: public/imdbi-public-functions.php:136 public/imdbi-public-functions.php:174
 msgid "N/A"
 msgstr "نامشخص"
 
@@ -575,6 +579,9 @@ msgstr "محمد اعظمی"
 #. Author URI of the plugin/theme
 msgid "http://www.iazami.ir/"
 msgstr "http://www.iazami.ir/"
+
+#~ msgid "Download posters automatically"
+#~ msgstr "دانلود پوسترها به صورت خودکار."
 
 #~ msgid "new documentation."
 #~ msgstr "مطالعه مستندات جدید"

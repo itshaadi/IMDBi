@@ -87,11 +87,3 @@
 .omdb-info ul li input[name="imdbi-submit-info"] {
 	margin-top: 30px;
 }
-
-#imdbi-warning-close{
-	text-decoration: none;
-	color:#999;
-}
-.imdbi-warning{
-	display: none;
-}

@@ -193,4 +193,6 @@ function imdbi_shortcode_generator($atts){
 add_shortcode('imdbi','imdbi_shortcode_generator');
 add_shortcode('IMDBI','imdbi_shortcode_generator');
 
+
+
 ?>

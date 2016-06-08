@@ -147,6 +147,8 @@ class Imdbi_Admin {
 	public function imdbi_validate_options($input){
 		$valid = array();
 		$valid['posters_size'] = $input['posters_size'];
+		$valid['download_posters'] = $input['download_posters'];
+
 		if( empty($valid['posters_size']) || !is_numeric($valid['posters_size']) ){
 			add_settings_error(
 					'poster_size',                     // Setting title
