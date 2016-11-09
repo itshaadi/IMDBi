@@ -222,21 +222,25 @@
 
 				var poster = $("#imdbi-crawler-poster").text();
 
-				$.post(
-						target,
-						{
-							poster_url:poster,
-						},
-						function(response){
+				//alert(poster);
 
-							$("textarea[name=imdbi-poster-value]").text(response);
+				$.ajax({
+					type: "POST",
+					url:target,
+					data: {
 
-							$(".imdbi-tab-wrapper").fadeIn("fast");
-							$(".imdbi-metabox-common-fields").fadeIn("fast");
+						'poster_url':poster,
+					},
+					success: function(response){
+						$("textarea[name=imdbi-poster-value]").text(response);
 
-							$(".imdbi-metabox-loader").fadeOut("fast");
-						}
-					);
+						$(".imdbi-tab-wrapper").fadeIn("fast");
+						$(".imdbi-metabox-common-fields").fadeIn("fast");
+
+						$(".imdbi-metabox-loader").fadeOut("fast");
+					}
+
+				});
 
 			}
 			else{

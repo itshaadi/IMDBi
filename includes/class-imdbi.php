@@ -48,7 +48,7 @@ class Imdbi {
 	public function __construct() {
 
 		$this->plugin_name = 'imdbi';
-		$this->version = '2.0.0-beta';
+		$this->version = '2.0.1';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -173,6 +173,11 @@ class Imdbi {
 
 		//display warning message for first time.
 		//$this->loader->add_action('admin_notices', $plugin_admin, 'imdbi_warning');
+
+		// add custom schedule
+		$this->loader->add_filter( 'cron_schedules', $plugin_admin, 'imdbi_custom_event' );
+		// fire event
+		$this->loader->add_action('imdbi_top_list', $plugin_admin, 'imdbi_top_list');
 
 	}
 

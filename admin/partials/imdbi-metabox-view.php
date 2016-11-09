@@ -46,7 +46,7 @@
 						<input type="text" value="" name="imdbYear" id="imdbi-year" class="small-text" />
 						</div>
 						<div class="searchType-wrap">
-						<input class="button-secondary" type="button" id="imdbi-search-submit" value="<?php esc_attr_e( 'Search' ); ?>" />
+						<input class="button-secondary" type="button" id="imdbi-search-submit" value="<?php esc_attr_e( 'Search', $this->plugin_name ); ?>" />
 						</div>
 						<div class="imdbi-empty-title error" style="display:none;">
 						<p><?php _e('title field cannot be empty.', $this->plugin_name) ?></p>
@@ -67,7 +67,7 @@
 						<input type="text" value="" name="imdbID" id="imdbi-id" class="small" />
 						</div>
 						<div class="searchType-wrap">
-						<input class="button-secondary" type="button" id="imdbi-id-submit" value="<?php esc_attr_e( 'Retrieve Information' ); ?>" />
+						<input class="button-secondary" type="button" id="imdbi-id-submit" value="<?php esc_attr_e( 'Retrieve Information', $this->plugin_name ); ?>" />
 						</div>
 						<div class="imdbi-empty-id error" style="display:none;">
 						<p><?php _e('IMDB ID field cannot be empty.', $this->plugin_name) ?></p>

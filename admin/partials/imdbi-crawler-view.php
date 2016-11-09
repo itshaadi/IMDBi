@@ -197,7 +197,7 @@ $fields = $this->omdb_serialize($fields);
       <div id="omdb-poster">
         <?php
 
-          $poster = ($this->is_denied($fields["Poster"]) ? $fields["Poster"] : str_replace($media_server,$no_block,$fields["Poster"]) ); //replace no_block adress if the connection is restricted
+          $poster = str_replace($media_server,$no_block,$fields["Poster"]); //replace no_block adress if the connection is restricted
 
           echo "<img src=".$poster." alt=".$fields["Title"]."/>" ;
          ?>
@@ -272,6 +272,27 @@ $fields = $this->omdb_serialize($fields);
 
       </ul>
     </div>
+
+
+    <?php
+    /**
+    * Translate Languages (en_fa)
+    * @since 2.1.0
+    */
+
+      if(get_locale() == 'fa_IR'){
+
+        $translate = 'http://translate.parsijoo.ir/translate?mode=en_fa&text=' . urlencode($fields['Language']) . ',';
+        $html = file_get_html($translate);
+        $html = $html->find('div[class=translation]',0);
+        $html = str_replace(array('زبان',' '), '', trim($html->plaintext));
+        $html = substr(ltrim($html), 0, -1);
+        $fields['Language'] = str_replace(',',', ',$html);
+
+      }
+
+    ?>
+
 
     <!--
     this is so important this div will save the crawler result

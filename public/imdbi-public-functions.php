@@ -16,12 +16,19 @@ function imdbi_check($name){
     if( get_post_meta($post->ID, 'IMDBI_Poster', true) != ''  ){
       return true;
     }
-    elseif( get_post_meta($post->ID, 'IMDBI_Poster', true) == '' ){
+    elseif( wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) != false ){
       return true;
     }
     else{
       return false;
     }
+  }
+
+  if($name == "rank" && get_post_meta( $post->ID, 'imdbID', true ) != ''){
+    $id = get_post_meta( $post->ID, 'imdbID', true );
+    $top_list = get_option('imdbi_top_list');
+    $is_top = (isset($top_list[$id]) ? true : false );
+    return $is_top;
   }
 
   /* List of meta box fields (meta_name => meta_key) */
@@ -72,12 +79,19 @@ function imdbi($name){
     if( get_post_meta($post->ID, 'IMDBI_Poster', true) != '' ){
     return get_post_meta( $post->ID, 'IMDBI_Poster', true );
     }
-    elseif( get_post_meta($post->ID, 'IMDBI_Poster', true) == '' ){
+    elseif(  wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) != false ){
       return wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); // if there is no POSTER it will print thumbnail url
     }
     else{
       return __('N/A','imdbi');
     }
+  }
+
+  if($name == "rank" && get_post_meta( $post->ID, 'imdbID', true ) != ''){
+    $id = get_post_meta( $post->ID, 'imdbID', true );
+    $top_list = get_option('imdbi_top_list');
+    $rank = (isset($top_list[$id]) ? $top_list[$id] : 0 );
+    return $rank;
   }
 
   /* List of meta box fields (meta_name => meta_key) */
@@ -124,17 +138,25 @@ function imdbi($name){
 function imdbi_fetch_meta($name){
   global $post;
   $name = trim(strtolower($name));
+  $alt_name = get_option('imdbi_alternative_fields');
 
   if($name == "poster" ){
     if( get_post_meta($post->ID, 'IMDBI_Poster', true) != '' ){
     return get_post_meta( $post->ID, 'IMDBI_Poster', true );
     }
-    elseif( get_post_meta($post->ID, 'IMDBI_Poster', true) == '' ){
+    elseif(  wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) != false ){
       return wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); // if there is no POSTER it will print thumbnail url
     }
     else{
       return __('N/A','imdbi');
     }
+  }
+
+  if($name == "rank" && get_post_meta( $post->ID, 'imdbID', true ) != ''){
+    $id = get_post_meta( $post->ID, 'imdbID', true );
+    $top_list = get_option('imdbi_top_list');
+    $rank = (isset($top_list[$id]) ? $top_list[$id] : 0 );
+    return $rank;
   }
 
   /* List of meta box fields (meta_name => meta_key) */
@@ -192,7 +214,5 @@ function imdbi_shortcode_generator($atts){
 
 add_shortcode('imdbi','imdbi_shortcode_generator');
 add_shortcode('IMDBI','imdbi_shortcode_generator');
-
-
 
 ?>

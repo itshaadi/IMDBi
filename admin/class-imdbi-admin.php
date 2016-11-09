@@ -162,7 +162,6 @@ class Imdbi_Admin {
 		}
 	}
 
-
 	/**
 	* Updating options
 	*/
@@ -188,15 +187,40 @@ class Imdbi_Admin {
 
 	/**
 	* Creating Metabox to be displayed on post editor screen.
+	* add support for custom post types.
+	* @since 2.0.1
 	*/
 
 	public function imdbi_add_post_metabox(){
+
+
+		$args = array(
+			 'public'   => true,
+			 '_builtin' => false
+		);
+
+		foreach ( get_post_types( $args, 'names' ) as $post_type ) {
+			if($post_type != null){
+			$post_types[] = $post_type;
+			}
+			else{
+				break;
+			}
+		}
+
+		if(isset($post_types)){
+			 array_push($post_types, 'post', 'page');
+		}
+		else{
+			$post_types = array('post', 'page');
+		}
+
 
 	  add_meta_box(
 	    'imdbi_metabox',      // Unique ID
 	    esc_html__( 'Search movies and TV series', $this->plugin_name ),    // Title
 	    array($this,'imdbi_metabox_callback'),   // Callback function
-	    'post',         // Admin page (or post type)
+	    $post_types,         // Admin page (or post type)
 	    'advanced',         // Context
 	    'default'         // Priority
 	  );
@@ -599,6 +623,7 @@ class Imdbi_Admin {
 
 			// let's assume that poster already exist (uploaded once before).
 			$file_name =  rtrim(basename($poster_url), '.jpg');
+
 			//Searching
 			$query = "SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_title='$file_name'";
 			$count = $wpdb->get_var($query);
@@ -610,7 +635,7 @@ class Imdbi_Admin {
 				* so poster wasn’t uploaded before.
 				*/
 
-				$tmp = download_url($poster_url, 0);
+				$tmp = download_url($poster_url);
 
 				$file_array = array(
 
@@ -624,7 +649,9 @@ class Imdbi_Admin {
 				if( is_wp_error($tmp) ){
 					@chown($file_array['tmp_name'],465);
 					@unlink( $file_array['tmp_name'] );
-					return $tmp;
+					echo "something went wrong while downloading this file.";
+					//var_dump($tmp);
+					die();
 				}
 
 				$id = media_handle_sideload($file_array, 0);
@@ -634,7 +661,9 @@ class Imdbi_Admin {
 				if( is_wp_error( $id ) ){
 					@chown($file_array['tmp_name'],465);
 					@unlink( $file_array['tmp_name'] );
-					return $id;
+					//var_dump($id);
+					echo "something went wrong. admin/class-imdbi-admin.php:665";
+					die();
 				}
 
 				$attachment_url = wp_get_attachment_url( $id );
@@ -654,7 +683,7 @@ class Imdbi_Admin {
 
 
 	public function omdb_view($type, $handle){
-		include_once( 'partials/omdb_view.php' );
+		include_once( 'partials/imdbi-crawler-view.php' );
 	}
 
 
@@ -674,5 +703,43 @@ class Imdbi_Admin {
 		<?php
 	}
 
+
+/**
+* Fetch imdb top 250
+* @since 2.0.1
+*/
+
+public function imdbi_top_list(){
+
+	$crawler = file_get_html("http://www.imdb.com/chart/top");
+
+
+	foreach( $crawler->find('td[class=titleColumn]') as $title ){
+		preg_match("/[\d]*\./", $title, $match);
+		$rank[] = substr($match[0],0,-1);
+		$link = $title->find('a',0);
+		$link = $link->href;
+		preg_match("/(tt)\d{7}/", $link, $match);
+		$imdbID[] = $match[0];
+	}
+
+	$top_list = array_combine($imdbID, $rank);
+
+	update_option( 'imdbi_top_list', $top_list );
+
+}
+
+/**
+* schedule a custom event
+* @since 2.0.1
+*/
+
+public function imdbi_custom_event($schedules){
+	$schedules['monthly'] = array(
+		'interval' => '2592000',
+		'display'  => __('Once Every 30 Days', $this->plugin_name)
+	);
+	return $schedules;
+}
 
 }

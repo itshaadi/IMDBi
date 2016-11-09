@@ -16,8 +16,8 @@
 
 	<form method="post" name="imdbi_options" action="options.php"></label>
 	<?php
-	//Grab all options
 
+		//Grab all options
 		$options = get_option($this->plugin_name);
 
 		//var_dump($options);
@@ -52,7 +52,7 @@
 				<div class="imdbi-setting-general">
 
 					<h3>
-						<?php _e('General Settings', $this->plugin_name); ?>
+						<?php _e('Poster Settings', $this->plugin_name); ?>
 					</h3>
 					<table class="form-table">
 						<tbody>
@@ -68,7 +68,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th></th>
+								<th><b><?php _e('Automatic Download',$this->plugin_name) ?></b></th>
 								<td>
 									<fieldset>
 										<label for="<?php echo $this->plugin_name; ?>[download_posters]">
