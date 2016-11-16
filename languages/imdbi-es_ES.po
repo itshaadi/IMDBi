@@ -1,0 +1,706 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: imdbi\n"
+"POT-Creation-Date: 2016-06-19 21:51+0430\n"
+"PO-Revision-Date: 2016-11-14 21:40-0600\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: imdbi.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-imdbi-admin.php:114
+msgid "imdbi settings"
+msgstr "Configuración imdbi"
+
+#: admin/class-imdbi-admin.php:125
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-imdbi-admin.php:156
+msgid "poster size must be a number."
+msgstr "El tamaño del cartel debe ser un número."
+
+#: admin/class-imdbi-admin.php:221
+msgid "Search movies and TV series"
+msgstr "Búsqueda de películas y series de TV"
+
+#: admin/class-imdbi-admin.php:370
+msgid "Action"
+msgstr "Acción"
+
+#: admin/class-imdbi-admin.php:371
+msgid "Animation"
+msgstr "Animación"
+
+#: admin/class-imdbi-admin.php:372
+msgid "Comedy"
+msgstr "Comedia"
+
+#: admin/class-imdbi-admin.php:373
+msgid "Documentary"
+msgstr "Documental"
+
+#: admin/class-imdbi-admin.php:374
+msgid "Family"
+msgstr "Familiar"
+
+#: admin/class-imdbi-admin.php:375
+msgid "Film-Noir"
+msgstr "Cine negro"
+
+#: admin/class-imdbi-admin.php:376
+msgid "Horror"
+msgstr "Horror"
+
+#: admin/class-imdbi-admin.php:377
+msgid "Musical"
+msgstr "Musical"
+
+#: admin/class-imdbi-admin.php:378
+msgid "Romance"
+msgstr "Romance"
+
+#: admin/class-imdbi-admin.php:379
+msgid "Sport"
+msgstr "Deporte"
+
+#: admin/class-imdbi-admin.php:380
+msgid "War"
+msgstr "Guerra"
+
+#: admin/class-imdbi-admin.php:381
+msgid "Adventure"
+msgstr "Aventuras"
+
+#: admin/class-imdbi-admin.php:382
+msgid "Biography"
+msgstr "Biografía"
+
+#: admin/class-imdbi-admin.php:383
+msgid "Crime"
+msgstr "Crimen"
+
+#: admin/class-imdbi-admin.php:384
+msgid "Drama"
+msgstr "Drama"
+
+#: admin/class-imdbi-admin.php:385
+msgid "Fantasy"
+msgstr "Fantasía"
+
+#: admin/class-imdbi-admin.php:386
+msgid "History"
+msgstr "Historia"
+
+#: admin/class-imdbi-admin.php:387
+msgid "Music"
+msgstr "Música"
+
+#: admin/class-imdbi-admin.php:388
+msgid "Mystery"
+msgstr "Misterio"
+
+#: admin/class-imdbi-admin.php:389
+msgid "Sci-Fi"
+msgstr "Ciencia ficción"
+
+#: admin/class-imdbi-admin.php:390
+msgid "Thriller"
+msgstr "Thriller"
+
+#: admin/class-imdbi-admin.php:391
+msgid "Western"
+msgstr "Occidental"
+
+#: admin/class-imdbi-admin.php:392
+msgid "News"
+msgstr "Noticias"
+
+#: admin/class-imdbi-admin.php:393
+msgid "Sitcom"
+msgstr "Comedia de enredo"
+
+#: admin/class-imdbi-admin.php:394
+msgid "Reality-TV"
+msgstr "Reality de TV"
+
+#: admin/class-imdbi-admin.php:395
+msgid "Game-Show"
+msgstr "Show de juegos"
+
+#: admin/class-imdbi-admin.php:396
+msgid "Talk-Show"
+msgstr "Programa de entrevistas"
+
+#: admin/class-imdbi-admin.php:397
+msgid "short"
+msgstr "Corto"
+
+#: admin/class-imdbi-admin.php:408
+msgid "Argentina"
+msgstr "Argentina"
+
+#: admin/class-imdbi-admin.php:409
+msgid "Brazil"
+msgstr "Brasil"
+
+#: admin/class-imdbi-admin.php:410
+msgid "Colombia"
+msgstr "Colombia"
+
+#: admin/class-imdbi-admin.php:411
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: admin/class-imdbi-admin.php:412
+msgid "Iran"
+msgstr "Iran"
+
+#: admin/class-imdbi-admin.php:413
+msgid "Malaysia"
+msgstr "Malasia"
+
+#: admin/class-imdbi-admin.php:414
+msgid "Pakistan"
+msgstr "Pakistán"
+
+#: admin/class-imdbi-admin.php:415
+msgid "Russia"
+msgstr "Rusia"
+
+#: admin/class-imdbi-admin.php:416
+msgid "Sweden"
+msgstr "Suecia"
+
+#: admin/class-imdbi-admin.php:417
+msgid "USA"
+msgstr "Estados Unidos"
+
+#: admin/class-imdbi-admin.php:418
+msgid "Australia"
+msgstr "Australia"
+
+#: admin/class-imdbi-admin.php:419
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: admin/class-imdbi-admin.php:420
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: admin/class-imdbi-admin.php:421
+msgid "France"
+msgstr "Francia"
+
+#: admin/class-imdbi-admin.php:422
+msgid "Hungary"
+msgstr "Hungría"
+
+#: admin/class-imdbi-admin.php:423
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: admin/class-imdbi-admin.php:424
+msgid "Mexico"
+msgstr "Mexico"
+
+#: admin/class-imdbi-admin.php:425
+msgid "Poland"
+msgstr "Polonia"
+
+#: admin/class-imdbi-admin.php:426
+msgid "Singapore"
+msgstr "Singapur"
+
+#: admin/class-imdbi-admin.php:427
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: admin/class-imdbi-admin.php:428
+msgid "Austria"
+msgstr "Austria"
+
+#: admin/class-imdbi-admin.php:429
+msgid "Canada"
+msgstr "Canadá"
+
+#: admin/class-imdbi-admin.php:430
+msgid "Czech Republic"
+msgstr "República Checa"
+
+#: admin/class-imdbi-admin.php:431
+msgid "Germany"
+msgstr "Alemania"
+
+#: admin/class-imdbi-admin.php:432
+msgid "Iceland"
+msgstr "Islandia"
+
+#: admin/class-imdbi-admin.php:433
+msgid "Italy"
+msgstr "Italia"
+
+#: admin/class-imdbi-admin.php:434
+msgid "Netherlands"
+msgstr "Países Bajos"
+
+#: admin/class-imdbi-admin.php:435
+msgid "Portugal"
+msgstr "Portugal"
+
+#: admin/class-imdbi-admin.php:436
+msgid "South Africa"
+msgstr "Sudáfrica"
+
+#: admin/class-imdbi-admin.php:437
+msgid "Thailand"
+msgstr "Tailandia"
+
+#: admin/class-imdbi-admin.php:438
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: admin/class-imdbi-admin.php:439
+msgid "China"
+msgstr "China"
+
+#: admin/class-imdbi-admin.php:440
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: admin/class-imdbi-admin.php:441
+msgid "Greece"
+msgstr "Grecia"
+
+#: admin/class-imdbi-admin.php:442
+msgid "India"
+msgstr "India"
+
+#: admin/class-imdbi-admin.php:443
+msgid "Japan"
+msgstr "Japón"
+
+#: admin/class-imdbi-admin.php:444
+msgid "New Zealand"
+msgstr "Nueva Zelanda"
+
+#: admin/class-imdbi-admin.php:445
+msgid "Romania"
+msgstr "Rumania"
+
+#: admin/class-imdbi-admin.php:446
+msgid "Spain"
+msgstr "España"
+
+#: admin/class-imdbi-admin.php:447
+msgid "UK"
+msgstr "Reino Unido"
+
+#: admin/class-imdbi-admin.php:693
+msgid "warning:"
+msgstr "Advertencia:"
+
+#: admin/class-imdbi-admin.php:694
+msgid "if you updated imdbi plugin to newer version, please read"
+msgstr "Si actualizó el complemento imdbi a una versión más reciente, lea"
+
+#: admin/class-imdbi-admin.php:695
+msgid "Function Reference"
+msgstr "Referencia de funciones"
+
+#: admin/class-imdbi-admin.php:735
+msgid "Once Every 30 Days"
+msgstr "Una vez cada 30 días"
+
+#: admin/partials/imdbi-admin-view.php:55
+msgid "Poster Settings"
+msgstr "Configuración del póster"
+
+#: admin/partials/imdbi-admin-view.php:61
+msgid "Posters Width"
+msgstr "Ancho de los  Posters"
+
+#: admin/partials/imdbi-admin-view.php:67
+msgid ""
+"(enter 9999 means you choise the largest resulation that is available on "
+"media server.)"
+msgstr ""
+"(Ingrese 9999 significa que elige la resolución más grande disponible en el "
+"servidor de medios)."
+
+#: admin/partials/imdbi-admin-view.php:71
+msgid "Automatic Download"
+msgstr "Descarga automática"
+
+#: admin/partials/imdbi-admin-view.php:76
+msgid "Download posters automatically."
+msgstr "Descargue los pósters automáticamente."
+
+#: admin/partials/imdbi-admin-view.php:91
+msgid "Save all changes"
+msgstr "Guarde todos los cambios"
+
+#: admin/partials/imdbi-crawler-view.php:27
+msgid "Uh-oh Nothing Found."
+msgstr "Uh-oh No se ha encontrado nada."
+
+#: admin/partials/imdbi-crawler-view.php:29
+msgid "let's try again"
+msgstr "intentemoslo de nuevo"
+
+#: admin/partials/imdbi-crawler-view.php:42
+#: admin/partials/imdbi-crawler-view.php:57
+msgid "← Back"
+msgstr "← Volver"
+
+#: admin/partials/imdbi-crawler-view.php:230
+msgid "Release Date:"
+msgstr "Fecha de lanzamiento:"
+
+#: admin/partials/imdbi-crawler-view.php:235
+#: admin/partials/imdbi-metabox-view.php:132
+msgid "Genre:"
+msgstr "Género:"
+
+#: admin/partials/imdbi-crawler-view.php:240
+#: admin/partials/imdbi-metabox-view.php:287
+msgid "Rating:"
+msgstr "Rating:"
+
+#: admin/partials/imdbi-crawler-view.php:240
+#, php-format
+msgid "from %s users"
+msgstr "De %s usuarios"
+
+#: admin/partials/imdbi-crawler-view.php:244
+#: admin/partials/imdbi-metabox-view.php:275
+msgid "Metascore:"
+msgstr "Metascore:"
+
+#: admin/partials/imdbi-crawler-view.php:249
+#: admin/partials/imdbi-metabox-view.php:239
+msgid "Director:"
+msgstr "Director:"
+
+#: admin/partials/imdbi-crawler-view.php:256
+msgid "Stars:"
+msgstr "Estrellas:"
+
+#: admin/partials/imdbi-crawler-view.php:270
+msgid "Submit Information"
+msgstr "Enviar Información"
+
+#: admin/partials/imdbi-metabox-view.php:13
+msgid "Wellcome To IMDBI Explorer"
+msgstr "Bienvenidos al buscador IMDBI"
+
+#: admin/partials/imdbi-metabox-view.php:15
+msgid ""
+"You can use one of the following methods for find your favorite movie and "
+"series, then add it to the post"
+msgstr ""
+"Puede utilizar uno de los siguientes métodos para buscar su película y serie "
+"favorita y, a continuación, agregarla a la publicación"
+
+#: admin/partials/imdbi-metabox-view.php:20
+msgid "Search By Title"
+msgstr "Búsqueda por título"
+
+#: admin/partials/imdbi-metabox-view.php:26
+msgid "Search By IMDB ID"
+msgstr "Búsqueda por IMDB ID"
+
+#: admin/partials/imdbi-metabox-view.php:37
+#: admin/partials/imdbi-metabox-view.php:62
+msgid "Change Search Type"
+msgstr "Cambiar el tipo de búsqueda"
+
+#: admin/partials/imdbi-metabox-view.php:41
+msgid "Enter Name of Movie/Series"
+msgstr "Introduzca el nombre de la película o serie"
+
+#: admin/partials/imdbi-metabox-view.php:45
+msgid "Year"
+msgstr "Año"
+
+#: admin/partials/imdbi-metabox-view.php:45
+msgid "(optional)"
+msgstr "(Opcional)"
+
+#: admin/partials/imdbi-metabox-view.php:49
+msgid "Search"
+msgstr "Buscar"
+
+#: admin/partials/imdbi-metabox-view.php:52
+msgid "title field cannot be empty."
+msgstr "El campo de título no puede estar vacío."
+
+#: admin/partials/imdbi-metabox-view.php:66
+msgid "Enter IMDB ID"
+msgstr "Ingresar IMDB ID"
+
+#: admin/partials/imdbi-metabox-view.php:70
+msgid "Retrieve Information"
+msgstr "Recuperar la información"
+
+#: admin/partials/imdbi-metabox-view.php:73
+msgid "IMDB ID field cannot be empty."
+msgstr "El campo IMDB ID no puede estar vacío."
+
+#: admin/partials/imdbi-metabox-view.php:76
+msgid "invalid IMDB ID pattern."
+msgstr "Patrón de ID IMDB no válido."
+
+#: admin/partials/imdbi-metabox-view.php:92
+msgid "Loading ..."
+msgstr "Cargando ..."
+
+#: admin/partials/imdbi-metabox-view.php:105
+msgid "Information was received successfully"
+msgstr "La información fue recibida con éxito"
+
+#: admin/partials/imdbi-metabox-view.php:107
+msgid "Translate common fields"
+msgstr "Traducir campos comunes"
+
+#: admin/partials/imdbi-metabox-view.php:108
+msgid "Remove"
+msgstr "Remover"
+
+#: admin/partials/imdbi-metabox-view.php:117
+msgid "Common Fields"
+msgstr "Campos comunes"
+
+#: admin/partials/imdbi-metabox-view.php:118
+msgid "Other Fields"
+msgstr "Otros Campos"
+
+#: admin/partials/imdbi-metabox-view.php:143
+msgid "Country:"
+msgstr "País:"
+
+#: admin/partials/imdbi-metabox-view.php:154
+msgid "Language:"
+msgstr "Idioma:"
+
+#: admin/partials/imdbi-metabox-view.php:166
+msgid "Awards:"
+msgstr "Premios:"
+
+#: admin/partials/imdbi-metabox-view.php:178
+msgid "Plot:"
+msgstr "Trama:"
+
+#: admin/partials/imdbi-metabox-view.php:189
+#: admin/partials/imdbi-metabox-view.php:405
+msgid "metabox values will change after publish/update the post."
+msgstr ""
+"Los valores del metabox cambiarán después de publicar / actualizar la "
+"publicación."
+
+#: admin/partials/imdbi-metabox-view.php:205
+msgid "MPAA Rating (age):"
+msgstr "Clasificación MPAA (edad):"
+
+#: admin/partials/imdbi-metabox-view.php:216
+msgid "Relase Date:"
+msgstr "Fecha de Estreno:"
+
+#: admin/partials/imdbi-metabox-view.php:227
+msgid "Runtime (minute):"
+msgstr "Tiempo de duracion (minutos):"
+
+#: admin/partials/imdbi-metabox-view.php:251
+msgid "Writer:"
+msgstr "Escritor:"
+
+#: admin/partials/imdbi-metabox-view.php:263
+msgid "Actors:"
+msgstr "Actores:"
+
+#: admin/partials/imdbi-metabox-view.php:299
+msgid "Votes:"
+msgstr "Votos:"
+
+#: admin/partials/imdbi-metabox-view.php:311
+msgid "Gross:"
+msgstr "Ingresos Brutos:"
+
+#: admin/partials/imdbi-metabox-view.php:324
+msgid "Budget:"
+msgstr "Presupuesto:"
+
+#: admin/partials/imdbi-metabox-view.php:336
+msgid "Poster Url:"
+msgstr "Url del Poster:"
+
+#: admin/partials/imdbi-metabox-view.php:348
+msgid "Trailer Url:"
+msgstr "Trailer Url:"
+
+#: admin/partials/imdbi-metabox-view.php:361
+msgid "imdbID:"
+msgstr "imdbID:"
+
+#: admin/partials/imdbi-metabox-view.php:372
+msgid "Title:"
+msgstr "Título:"
+
+#: admin/partials/imdbi-metabox-view.php:383
+msgid "Year:"
+msgstr "Año:"
+
+#: admin/partials/imdbi-metabox-view.php:394
+msgid "Type:"
+msgstr "Tipo:"
+
+#: public/imdbi-public-functions.php:86 public/imdbi-public-functions.php:131
+#: public/imdbi-public-functions.php:151 public/imdbi-public-functions.php:196
+msgid "N/A"
+msgstr "N/A"
+
+#. Plugin Name of the plugin/theme
+msgid "imdbi"
+msgstr "imdbi"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wordpress.org/plugins/imdbi"
+msgstr "http://www.wordpress.org/plugins/imdbi"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin will retrieve movie/series information, all content, images and "
+"trailers."
+msgstr ""
+"Este plugin recibe información de películas / series, todo el contenido, "
+"imágenes y trailers."
+
+#. Author of the plugin/theme
+msgid "mohammad azami"
+msgstr "mohammad azami"
+
+#. Author URI of the plugin/theme
+msgid "http://www.iazami.ir/"
+msgstr "http://www.iazami.ir/"
+
+#~ msgid "Meta Box Setting"
+#~ msgstr "تنظیمات زمینه های دلخواه"
+
+#~ msgid ""
+#~ "if you used any other meta box (or plugin that provide meta box) here you "
+#~ "can add the name of their fields to synchronize them with this plugin."
+#~ msgstr ""
+#~ "برای هماهنگی افزونه با مطالب قدیمی، نام زمینه های دلخواهی که قبلا استفاده "
+#~ "می کردید را در مقابل کادر مربوط به آن وارد کنید."
+
+#~ msgid "IMDB ID"
+#~ msgstr "شناسه IMDB"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "Trailer"
+#~ msgstr "تریلر"
+
+#~ msgid "Poster"
+#~ msgstr "پوستر"
+
+#~ msgid "Budget"
+#~ msgstr "بودجه"
+
+#~ msgid "Gross"
+#~ msgstr "سودخالص"
+
+#~ msgid "IMDB Votes"
+#~ msgstr "تعداد آرا"
+
+#~ msgid "IMDB Rate"
+#~ msgstr "رتبه"
+
+#~ msgid "Metascore"
+#~ msgstr "امتیاز منتقدین"
+
+#~ msgid "Actors"
+#~ msgstr "بازیگران"
+
+#~ msgid "writer"
+#~ msgstr "نویسنده"
+
+#~ msgid "Director"
+#~ msgstr "کارگردان"
+
+#~ msgid "Runtime"
+#~ msgstr "مدت اجرا"
+
+#~ msgid "Release Date"
+#~ msgstr "تاریخ انتشار"
+
+#~ msgid "MPAA Rating"
+#~ msgstr "رده سنی"
+
+#~ msgid "Plot"
+#~ msgstr "خلاصه داستان"
+
+#~ msgid "Awards"
+#~ msgstr "جوایز"
+
+#~ msgid "Language"
+#~ msgstr "زبان"
+
+#~ msgid "Country"
+#~ msgstr "کشور"
+
+#~ msgid "Genre"
+#~ msgstr "ژانر"
+
+#~ msgid "General Settings"
+#~ msgstr "تنظیمات عمومی"
+
+#~ msgid "Download posters automatically"
+#~ msgstr "دانلود پوسترها به صورت خودکار."
+
+#~ msgid "new documentation."
+#~ msgstr "مطالعه مستندات جدید"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "FeedBack"
+#~ msgstr "انتقادات و پیشنهادات"
+
+#~ msgid "instructions"
+#~ msgstr "دستورالعمل ها"
+
+#~ msgid "Posters Size"
+#~ msgstr "اندازه پوستر ها"
+
+#~ msgid ""
+#~ "(In pixels, only enter the width. also 9999 define largest size that is "
+#~ "available on media server.)"
+#~ msgstr ""
+#~ "(به پیکسل وارد شود، این فیلد فقط مقدار عرض تصویر را تعیین می کند. همچنین "
+#~ "وارد کردن مقدار 9999 به معنای دریافت بزرگترین سایز موجود در مدیا سرور است)"
+
+#~ msgid "Short Codes"
+#~ msgstr "کدهای کوتاه"
+
+#~ msgid "Functions"
+#~ msgstr "توابع"
+
+#~ msgid "Notes"
+#~ msgstr "یادداشت ها"
