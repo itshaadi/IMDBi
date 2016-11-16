@@ -10,7 +10,7 @@ Note that this plugin doesn't have any templates packed in, you have to create a
 * editable search results.
 * store informations as meta box.
 * display informations using shortcode.
-* available in both english and persian.
+* available in english(Default), persian(fa_IR) and español(es_ES, es_MX).
 * Using thumbnail when poster is not available.
 * Uploading poster automatically via url and save it as thumbnail.
 
@@ -23,6 +23,7 @@ There is various ways for installing the plugin.
 
 ##### Requirements:
 * PHP >= 5.5
-* WordPress >= 3.8
+* WordPress >= 3.8 (4.4+ since [v. 2.0.2](https://github.com/iazami/IMDBi/releases/tag/2.0.2))
 
-
+## Translators
+* [ztvMark](https://github.com/ztvMark) (español)
