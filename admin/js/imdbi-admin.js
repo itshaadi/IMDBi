@@ -21,9 +21,18 @@
 			$(".imdbi-metabox-common-fields").show("fast");
 		}
 
-	 	$(".nav-tab").click(function(e){
+		/*
+		*	Fixes #6
+		* Tabs on Dashboard Backend WordPress is Unclickable
+		*/
+
+		$(".imdbi-tab1").click(function(e){
 	 		e.preventDefault();
 	 	});
+
+		$(".imdbi-tab2").click(function(e){
+			e.preventDefault();
+		});
 
 		$(".crawler-error-btn").live("click", function(e){
 			$(".crawler-error").fadeOut("fast");
